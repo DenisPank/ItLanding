@@ -16,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  position: relative;
 }
 
 .grid {
@@ -32,6 +33,11 @@ body {
 
 li {
   list-style-type: none;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.463em;
 }
 
 /* first-screen */
@@ -283,3 +289,72 @@ header::before {
   margin-bottom: 66px;
 }
 /* content under the line */
+
+/* third screen */
+
+/* fife screen  */
+
+.services-specialization {
+  background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%) 100%;
+}
+
+/* title  */
+.services-title__text {
+  color: white;
+  width: 540px;
+}
+
+.services-title {
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 100px 0 302px 0;
+}
+
+.services-title__button {
+  margin-top: 24px;
+}
+/* title  */
+
+/* items */
+.services-list__title {
+  font-size: 18px;
+  line-height: 1.222em;
+  margin-top: 30px;
+}
+
+.services-list__number {
+  color: #4985ff;
+  font-size: 17px;
+}
+
+.services-list {
+  position: absolute;
+  top: 284px;
+}
+
+.services-list__item {
+  width: 350px;
+  margin-bottom: 170px;
+}
+
+.services-list__item:nth-child(-n + 2) {
+  margin-right: 30px;
+}
+
+.services-list__text {
+  width: 100%;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.services-list__link::before {
+  width: 6em;
+}
+/* items */
+/* line */
+.services-list::after {
+  top: 629px;
+}
+/* line */
+
+/* fife screen  */
