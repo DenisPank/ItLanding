@@ -26,6 +26,14 @@ body {
   display: flex;
 }
 
+.block {
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
 /* first-screen */
 
 header {
@@ -235,7 +243,7 @@ header::before {
 }
 
 .aut {
-  margin: 100px 0 0 115px;
+  margin: 100px 0 160px 115px;
 }
 
 /* content above the line */
@@ -253,5 +261,25 @@ header::before {
 }
 
 /* content under the line */
+.list-about-us__text {
+  margin: 0;
+  padding: 0;
+}
 
+.list-about-us__digit {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  color: black;
+}
+
+.list-about-us__numbers {
+  width: 104px;
+  height: 67px;
+}
+
+.list-about-us {
+  justify-content: space-around;
+  margin-bottom: 66px;
+}
 /* content under the line */
