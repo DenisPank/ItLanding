@@ -18,6 +18,14 @@ body {
   height: 100%;
 }
 
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
 /* first-screen */
 
 header {
@@ -186,3 +194,64 @@ header::before {
 }
 
 /* second-screen */
+
+/* third screen */
+
+/* content above the line */
+
+.about-us-bac {
+  background: rgba(246, 246, 248, 1);
+}
+
+.about-us__title {
+  width: 424px;
+  height: 88px;
+  padding: 0;
+  margin: 152px 0 40px 0;
+}
+
+.about-us__text {
+  padding: 0;
+  margin: 0 0 30px 0;
+  width: 489px;
+  height: 117px;
+}
+
+.about-us__link {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(73, 133, 255, 1);
+  position: relative;
+}
+
+.about-us__link::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 12.4em;
+  background: rgba(73, 133, 255, 1);
+  position: absolute;
+  top: 17px;
+}
+
+.aut {
+  margin: 100px 0 0 115px;
+}
+
+/* content above the line */
+.line {
+  position: relative;
+}
+.line::after {
+  display: block;
+  content: "";
+  background: rgba(224, 224, 224, 1);
+  height: 1px;
+  position: absolute;
+  width: 100%;
+  top: 590px;
+}
+
+/* content under the line */
+
+/* content under the line */
