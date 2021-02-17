@@ -12,6 +12,9 @@ body {
 .container {
   width: 1110px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 /* first-screen */
@@ -20,6 +23,7 @@ header {
   width: 100vw;
   height: 100vh;
   background: url("../img/Rectangle.jpg") no-repeat center / cover;
+  color: #fff;
 }
 
 /************************** navigation bar */
@@ -29,7 +33,7 @@ header {
   font-size: 16px;
   color: #fff;
   font-weight: normal;
-  margin-right: 40px;
+  margin-right: 35px;
   transition: all 0.2s;
 }
 
@@ -56,3 +60,44 @@ header::before {
 }
 
 /*************************** navigation bar */
+/*************************** main page title */
+
+.title__text {
+  font-size: 16px;
+}
+
+.title__info {
+  font-size: 48px;
+  line-height: 1.333em;
+  margin: 20px 0 50px 0;
+}
+
+.button {
+  font-size: 16px;
+  color: #fff;
+  background: rgba(73, 133, 255, 1);
+  border: none;
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  background: rgba(73, 133, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 829px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 219.5px;
+}
+
+/*************************** main page title */
+
+/* first-screen */
