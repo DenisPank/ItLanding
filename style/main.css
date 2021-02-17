@@ -296,6 +296,7 @@ header::before {
 
 .services-specialization {
   background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%) 100%;
+  margin-bottom: 495px;
 }
 
 /* title  */
@@ -358,3 +359,29 @@ header::before {
 /* line */
 
 /* fife screen  */
+
+/* six screen  */
+
+.progect {
+  background: rgba(246, 246, 248, 1);
+}
+
+.progect-item {
+  justify-content: space-between;
+}
+
+.our-progect {
+  margin: 100px 0 50px;
+}
+
+.text-progect {
+  padding: 0;
+  margin-bottom: 70px;
+}
+
+.progect-button {
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+/* six screen  */
