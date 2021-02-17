@@ -45,7 +45,7 @@ h2 {
 header {
   width: 100vw;
   height: 100vh;
-  background: url("../img/Rectangle.jpg") no-repeat center / cover;
+  background: url("../img/background.jpg") no-repeat center / cover;
   color: #fff;
 }
 
@@ -385,3 +385,21 @@ header::before {
 }
 
 /* six screen  */
+
+/* seventh screen */
+.video {
+  background: url("../img/backgroundnumbertwovideo.jpg") -187px 0/ 1920px 570px
+    no-repeat;
+}
+
+.title-video {
+  color: white;
+  margin: 70px 0 30px;
+}
+
+.title-video-text {
+  padding: 0;
+  color: #fff;
+  margin-bottom: 420px;
+}
+/* seventh screen */
