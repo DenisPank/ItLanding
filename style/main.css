@@ -468,4 +468,41 @@ header::before {
 
 /* form  */
 
-/* seventh screen */
+/* footer screen */
+
+footer {
+  background: rgba(246, 246, 248, 1);
+}
+
+.item-footer__text {
+  color: rgba(153, 153, 153, 1);
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.item-footer {
+  width: 255px;
+  margin-top: 70px;
+}
+
+.item-footer__title {
+  margin: 0 0 5px 0;
+}
+
+.item-footer .flex {
+  margin: 35px 0 0 0;
+}
+
+.flex-footer {
+  justify-content: space-between;
+}
+
+.flex-footer::after {
+  top: 338px;
+}
+
+.text-rights {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
