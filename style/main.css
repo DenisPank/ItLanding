@@ -394,12 +394,78 @@ header::before {
 
 .title-video {
   color: white;
-  margin: 70px 0 30px;
+  margin: 70px 0 20px;
 }
 
 .title-video-text {
   padding: 0;
   color: #fff;
-  margin-bottom: 420px;
+  margin-bottom: 403px;
 }
+/* seventh screen */
+.play-video {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  margin-left: -485px;
+}
+
+.title-video::after {
+  top: 675px;
+}
+
+/* form  */
+.title-form {
+  margin-top: 250px;
+}
+
+.text-form {
+  margin-top: 20px;
+  padding: 0;
+  color: rgba(153, 153, 153, 1);
+}
+
+.form {
+  width: 489px;
+  height: 45px;
+  box-shadow: 0px 0px 10px rgb(111 111 111 / 25%);
+  border-radius: 30px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.form__email {
+  border: none;
+  position: absolute;
+  top: 50%;
+  margin-top: -22.5px;
+  height: 100%;
+  right: 167px;
+  width: 295px;
+  font-size: 13px;
+  color: rgba(153, 153, 153, 1);
+  font-family: "Montserrat";
+}
+
+.form__submit {
+  height: 100%;
+  border: none;
+  background: #4985ff;
+  border-radius: 30px;
+  width: 190px;
+  margin-left: 298px;
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat";
+}
+
+.form-alert {
+  font-size: 13px;
+  color: rgba(153, 153, 153, 1);
+  margin-top: 35px;
+  margin-bottom: 85px;
+}
+
+/* form  */
+
 /* seventh screen */
