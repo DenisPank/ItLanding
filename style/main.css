@@ -224,6 +224,7 @@ header::before {
 
 .about-us-bac {
   background: rgba(246, 246, 248, 1);
+  padding: 85px 0 64px;
 }
 
 .about-us__title {
@@ -257,13 +258,10 @@ header::before {
   top: 17px;
 }
 
-.aut {
-  margin: 100px 0 160px 115px;
-}
-
 /* content above the line */
 .line {
   position: relative;
+  justify-content: space-between;
 }
 .line::after {
   display: block;
@@ -272,7 +270,7 @@ header::before {
   height: 1px;
   position: absolute;
   width: 100%;
-  top: 590px;
+  top: 540px;
 }
 
 /* content under the line */
@@ -295,7 +293,7 @@ header::before {
 
 .list-about-us {
   justify-content: space-around;
-  margin-bottom: 66px;
+  margin-top: 160px;
 }
 /* content under the line */
 
