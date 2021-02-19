@@ -143,12 +143,10 @@ header::before {
   text-align: center;
 }
 
-.title__mobil {
+.style-h2 {
   font-size: 36px;
   color: rgba(50, 50, 50, 1);
   line-height: 1.472em;
-  width: 739px;
-  padding-top: 108px;
 }
 
 .list__text-color {
@@ -277,6 +275,7 @@ header::before {
 .list-about-us__text {
   margin: 0;
   padding: 0;
+  width: fit-content;
 }
 
 .list-about-us__digit {
