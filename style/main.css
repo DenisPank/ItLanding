@@ -113,8 +113,7 @@ header::before {
 }
 
 .button:hover {
-  background: rgba(73, 133, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
+  background: rgb(88, 114, 167);
 }
 
 .title {
