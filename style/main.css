@@ -134,6 +134,10 @@ header::before {
 /* first-screen */
 /* second-screen */
 
+.mobil {
+  padding-top: 108px;
+}
+
 .center {
   margin: 0 auto;
   text-align: center;
@@ -176,7 +180,7 @@ header::before {
   margin-left: 28px;
 }
 
-.br {
+.border-icon {
   border: 1px solid rgba(73, 133, 255, 1);
   border-radius: 50%;
   height: 90px;
@@ -189,7 +193,7 @@ header::before {
   justify-self: end;
 }
 
-.br::before {
+.border-icon::before {
   content: "";
   display: block;
   height: 110px;
@@ -209,7 +213,7 @@ header::before {
 }
 
 .button-services {
-  margin: 55px 0 107px 41.5%;
+  margin: 55px auto 126px;
 }
 
 /* second-screen */
@@ -385,8 +389,7 @@ header::before {
 }
 
 .progect-button {
-  margin-top: 50px;
-  margin-bottom: 130px;
+  margin: 50px auto 138px;
 }
 
 /* six screen  */
