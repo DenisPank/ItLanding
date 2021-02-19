@@ -57,12 +57,15 @@ header {
   color: #fff;
   font-weight: normal;
   margin-right: 35px;
-  transition: all 0.2s;
+  transition: all 0.9s;
+  height: 99px;
+  padding-top: 37px;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 
 .menu__link:hover {
-  border-bottom: 2px solid #fff;
-  padding-bottom: 38px;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
 
 nav {
@@ -120,8 +123,11 @@ header::before {
   width: 829px;
   align-items: center;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 219.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -63.2px;
+  margin-left: -414.5px;
 }
 
 /*************************** main page title */
