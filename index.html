@@ -18,7 +18,7 @@
   <body>
     <header>
       <div class="container">
-        <nav>
+        <nav class="menu">
           <a href="#" class="menu__link">Главная</a>
           <a href="#" class="menu__link">Наши проекты</a>
           <a href="#" class="menu__link">Услуги</a>
@@ -45,35 +45,41 @@
           латинице с начала XVI века.
         </p>
         <ul class="list">
-          <li class="list__point">
+          <li class="list__point flex">
             <div class="border-icon">
               <img src="img/project.svg" alt="#" class="list__icon" />
             </div>
-            <h3 class="list__title">Создание сайтов</h3>
-            <p class="list__text list__text-color">
-              Lorem Ipsum - это текст- "рыба", часто используе в печати и
-              вэб-дизайне.
-            </p>
+            <div>
+              <h3 class="list__title">Создание сайтов</h3>
+              <p class="list__text list__text-color">
+                Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                вэб-дизайне.
+              </p>
+            </div>
           </li>
-          <li class="list__point">
+          <li class="list__point flex">
             <div class="border-icon">
               <img src="img/project.svg" alt="#" class="list__icon" />
             </div>
-            <h3 class="list__title">Создание сайтов</h3>
-            <p class="list__text list__text-color">
-              Lorem Ipsum - это текст- "рыба", часто используе в печати и
-              вэб-дизайне.
-            </p>
+            <div>
+              <h3 class="list__title">Создание сайтов</h3>
+              <p class="list__text list__text-color">
+                Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                вэб-дизайне.
+              </p>
+            </div>
           </li>
-          <li class="list__point">
+          <li class="list__point flex">
             <div class="border-icon">
               <img src="img/project.svg" alt="#" class="list__icon" />
             </div>
-            <h3 class="list__title">Создание сайтов</h3>
-            <p class="list__text list__text-color">
-              Lorem Ipsum - это текст- "рыба", часто используе в печати и
-              вэб-дизайне.
-            </p>
+            <div>
+              <h3 class="list__title">Создание сайтов</h3>
+              <p class="list__text list__text-color">
+                Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                вэб-дизайне.
+              </p>
+            </div>
           </li>
         </ul>
         <a href="#" class="button button-services">Все услуги</a>
@@ -173,7 +179,7 @@
           </h2>
           <a href="#" class="services-title__button button">Все услуги</a>
         </div>
-        <ul class="services-list flex line">
+        <ul class="services-list grid line">
           <li class="services-list__item">
             <img
               src="img/Peoplewithcomp.png"
@@ -242,7 +248,7 @@
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
           латинице с начала XVI века.
         </p>
-        <div class="progect-item flex">
+        <div class="progect-item grid">
           <img src="img/cod.png" alt="#" class="progect-img" />
           <img src="img/cod.png" alt="#" class="progect-img" />
           <img src="img/cod.png" alt="#" class="progect-img" />
@@ -252,19 +258,22 @@
       </div>
     </section>
     <section class="video">
-      <div class="container">
-        <h2 class="title-video center line">Видео о нашей работе</h2>
+      <div class="container line">
+        <h2 class="title-video center">Видео о нашей работе</h2>
         <p class="title-video-text sub-head center">
           Просто посмотрите, как мы работаем
         </p>
-        <video
-          class="play-video"
-          width="970"
-          height="430"
-          poster="img/city.png"
-          controls
-          src="video/Pexels Videos 1395943.mp4"
-        ></video>
+        <div class="play">
+          <img src="img/city.png" alt="#" />
+          <a href="#" class="play__button">
+            <img src="img/play-button.svg" alt="#" class="play__img" />
+            Смотреть видео
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="form-padding">
+      <div class="container">
         <h3 class="title-form services-list__title center">
           Подпишитесь на нашу рассылку
         </h3>
@@ -289,7 +298,7 @@
     </section>
     <footer>
       <div class="container">
-        <div class="flex flex-footer line">
+        <div class="grid grid-footer line">
           <div class="item-footer">
             <h3 class="item-footer__title services-list__title">
               Контактная информация
@@ -332,7 +341,7 @@
           </div>
           <div class="item-footer">
             <h3 class="item-footer__title services-list__title">
-              Контактная информация
+              Наши проекты
             </h3>
             <div class="flex">
               <img src="img/right-arrow.svg" alt="#" />
@@ -353,7 +362,7 @@
           </div>
           <div class="item-footer">
             <h3 class="item-footer__title services-list__title">
-              Контактная информация
+              Социальные сети
             </h3>
             <div class="flex">
               <img src="img/right-arrow.svg" alt="#" />
