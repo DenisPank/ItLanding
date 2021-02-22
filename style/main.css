@@ -39,15 +39,30 @@ h2 {
   line-height: 1.463em;
 }
 
-/* first-screen */
+.link-style {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(73, 133, 255, 1);
+  position: relative;
+}
+
+.link-style::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 12.4em;
+  background: rgba(73, 133, 255, 1);
+  position: absolute;
+  top: 17px;
+}
+
+/*********************************** header-screen */
 
 header {
   height: 100vh;
   background: url("../img/background.jpg") no-repeat center / cover;
   color: #fff;
 }
-
-/************************** navigation bar */
 
 .menu__link {
   text-decoration: none;
@@ -82,9 +97,6 @@ header::before {
   top: 99.5px;
   background: rgba(161, 161, 161, 0.5);
 }
-
-/*************************** navigation bar */
-/*************************** main page title */
 
 .title__text {
   font-size: 16px;
@@ -126,10 +138,8 @@ header::before {
   margin-left: -414.5px;
 }
 
-/*************************** main page title */
-
-/* first-screen */
-/* second-screen */
+/* header-screen */
+/************************************ mobil-screen */
 
 .mobil {
   padding: 108px 0 105px;
@@ -157,7 +167,7 @@ header::before {
   width: 730px;
 }
 
-.list {
+.mobil__list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 55px;
@@ -201,58 +211,39 @@ header::before {
   margin: 55px auto 20px;
 }
 
-.aut {
-  height: 100%;
-}
+/* mobil-screen */
 
-/* second-screen */
+/***************************** standart screen */
 
-/* third screen */
-
-/* content above the line */
-
-.about-us {
-  height: fit-content;
-  margin-top: 55px;
-}
-
-.about-us-bac {
+.standart {
   background: rgba(246, 246, 248, 1);
   padding: 85px 0 64px;
 }
 
-.about-us__title {
+.standart__general {
+  height: fit-content;
+  margin-top: 55px;
+}
+
+.standart__title {
   margin: 0 0 40px 0;
 }
 
-.about-us__text {
+.standart__text {
   padding: 0;
   margin: 0 0 30px 0;
   width: 489px;
 }
 
-.about-us__link {
-  text-decoration: none;
-  font-size: 16px;
-  color: rgba(73, 133, 255, 1);
-  position: relative;
+.standart__img {
+  height: 100%;
 }
 
-.about-us__link::before {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 12.4em;
-  background: rgba(73, 133, 255, 1);
-  position: absolute;
-  top: 17px;
-}
-
-/* content above the line */
 .line {
   position: relative;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
+
 .line::after {
   display: block;
   content: "";
@@ -263,41 +254,39 @@ header::before {
   bottom: -90px;
 }
 
-/* content under the line */
-.list-about-us__text {
-  margin: 0;
-  padding: 0;
-  width: fit-content;
+.standart__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 160px;
 }
 
-.list-about-us__digit {
+.standart__numbers {
+  justify-self: center;
+}
+
+.standart__digit {
   margin: 0;
   padding: 0;
   margin-left: 20px;
   color: black;
 }
 
-.list-about-us__numbers {
-  justify-self: center;
+.standart__text-point {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
 }
 
-.list-about-us {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-top: 160px;
-}
-/* content under the line */
+/* standart screen */
 
-/* third screen */
+/******************************** services screen  */
 
-/* fife screen  */
-
-.services-specialization {
+.services {
   position: relative;
   padding: 100px 0 172px;
 }
 
-.services-specialization::after {
+.services::after {
   background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%) 100%;
   position: absolute;
   z-index: -1;
@@ -307,7 +296,6 @@ header::before {
   top: 0;
 }
 
-/* title  */
 .services-title__text {
   color: white;
   width: 540px;
@@ -321,15 +309,13 @@ header::before {
 .services-title__button {
   margin-top: 20px;
 }
-/* title  */
 
-/* items */
 .services-list {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
 }
 
-.services-list__title {
+.h4-style {
   font-size: 18px;
   line-height: 1.222em;
   margin-top: 30px;
@@ -340,15 +326,6 @@ header::before {
   font-size: 17px;
 }
 
-/* .services-list__item {
-  width: 350px;
-  margin-bottom: 170px;
-} */
-
-/* .services-list__item:nth-child(-n + 2) {
-  margin-right: 30px;
-} */
-
 .services-list__text {
   width: 350px;
   padding: 0;
@@ -358,45 +335,43 @@ header::before {
 .services-list__link::before {
   width: 6em;
 }
-/* items */
-/* line */
+
 .services-list::after {
   top: auto;
   bottom: -85px;
 }
-/* line */
 
-/* fife screen  */
+/* services screen  */
 
-/* six screen  */
+/************************************ progect screen  */
 
 .progect {
   background: rgba(246, 246, 248, 1);
   padding: 100px 0 108px;
 }
 
-.progect-item {
+.progect__item {
   justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
 }
 
-.our-progect {
+.progect__title {
   margin: 0 0 50px;
 }
 
-.text-progect {
+.progect__text {
   padding: 0;
   margin-bottom: 70px;
 }
 
-.progect-button {
+.progect__button {
   margin: 50px auto 20px;
 }
 
-/* six screen  */
+/* progect screen  */
 
-/* seventh screen */
+/************************************ video screen */
 .video {
   background: url("../img/backgroundnumbertwovideo.jpg") center 0px / 121% 570px
     no-repeat;
@@ -436,20 +411,26 @@ header::before {
   padding: 0;
   color: #fff;
 }
-/* seventh screen */
 
-/* form  */
-.title-form {
+/* video screen */
+
+/******************************** registration screen */
+
+.registration {
+  padding: 170px 0 65px;
+}
+
+.registration__title {
   margin-top: 0px;
 }
 
-.text-form {
+.registration__text {
   margin-top: 20px;
   padding: 0;
   color: rgba(153, 153, 153, 1);
 }
 
-.form {
+.registration__form {
   width: 489px;
   height: 45px;
   box-shadow: 0px 0px 10px rgb(111 111 111 / 25%);
@@ -458,7 +439,7 @@ header::before {
   margin-top: 30px;
 }
 
-.form__email {
+.registration__email {
   border: none;
   position: absolute;
   top: 50%;
@@ -470,9 +451,10 @@ header::before {
   color: rgba(153, 153, 153, 1);
   font-family: "Montserrat";
   outline: none;
+  padding-right: 7px;
 }
 
-.form__submit {
+.registration__submit {
   height: 100%;
   border: none;
   background: #4985ff;
@@ -486,50 +468,48 @@ header::before {
   outline: none;
 }
 
-.form-alert {
+.registration__alert {
   font-size: 13px;
   color: rgba(153, 153, 153, 1);
   margin-top: 35px;
   margin-bottom: 20px;
 }
 
-.form-padding {
-  padding: 170px 0 65px;
-}
+/* registration screen */
 
-/* form  */
+/******************************* footer screen */
 
-/* footer screen */
-
-footer {
+.footer {
   background: rgba(246, 246, 248, 1);
   padding: 70px 0 30px;
 }
 
-.item-footer__text {
+.footer__text {
   color: rgba(153, 153, 153, 1);
   font-size: 14px;
   text-decoration: none;
   margin-left: 15px;
 }
 
-.item-footer__title {
+.footer__title {
   margin: 0 0 5px 0;
 }
 
-.item-footer .flex {
+.footer__item .flex {
   margin: 35px 0 0 0;
 }
 
-.grid-footer {
+.footer__grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 5px;
 }
 
-.text-rights {
+.footer__grid::after {
+  bottom: -75px;
+}
+
+.footer__text-rights {
   margin: 100px 0 0;
 }
 
-.grid-footer::after {
-  bottom: -75px;
-}
+/* footer screen */
