@@ -1,18 +1,33 @@
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1110px) {
   .container {
     width: 768px;
   }
 
+  .title {
+    width: 100%;
+    margin-left: -384px;
+  }
+
   .standart__flex {
     display: block;
+    text-align: center;
   }
 
   .standart__general {
     margin-bottom: 20px;
   }
 
+  .standart__link::before {
+    left: 50%;
+    margin-left: -6.2em;
+  }
+
   .services-list {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .standart__text {
+    width: auto;
   }
 
   .progect__item {
@@ -90,8 +105,8 @@
   }
 
   .video {
-    background: url("../img/backgroundnumbertwovideo.jpg") center 0px / 300%
-      570px no-repeat;
+    background: url("../img/backgroundnumbertwovideo.jpg") center 0px / cover
+      no-repeat;
     padding: 0px 0 0;
   }
 
