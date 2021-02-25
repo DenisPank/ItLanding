@@ -36,21 +36,33 @@
   }
 
   .play {
-    width: 99%;
+    width: 100%;
   }
 
   .play__video {
-    width: 99%;
+    width: 100%;
+  }
+
+  .footer__title {
+    height: 43px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
   .container {
     width: 425px;
   }
 
   .sub-head {
-    width: 99%;
+    width: 100%;
   }
 
   .mobil__list {
@@ -59,6 +71,27 @@
 
   nav {
     display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    content: "";
+    height: 15px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    right: 0;
+    transition: all 0.5s;
+    width: 20px;
+  }
+
+  .menu-btn span {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    margin-top: 7px;
   }
 
   .standart__list {
@@ -72,6 +105,18 @@
 
   .services-list {
     grid-template-columns: 1fr;
+  }
+
+  .standart__numbers .flex {
+    display: block;
+  }
+
+  .standart__numbers {
+    text-align: center;
+  }
+
+  .standart__digit {
+    margin-left: 0;
   }
 
   .title {
@@ -92,7 +137,7 @@
   }
 
   .services-title__text {
-    width: 99%;
+    width: 100%;
   }
 
   .progect__item {
@@ -121,15 +166,11 @@
   }
 
   .registration__email {
-    border: none;
-    position: static;
     margin-top: 0;
-    height: 100%;
     box-shadow: 0px 0px 10px rgb(111 111 111 / 25%);
-    padding: 1px 1px;
     border-radius: 30px;
-    padding: 14px 59.8px;
-    width: auto;
+    padding: 14px 15px;
+    width: 395px;
   }
 
   .registration__submit {
@@ -137,7 +178,7 @@
     margin-top: 20px;
     padding: 12px 140px;
     width: auto;
-    padding: 12px 85.568px;
+    padding: 12px 85px;
   }
 
   .footer__grid::after {
@@ -163,11 +204,11 @@
   }
 
   .services {
-    padding: 5px 0 68px;
+    padding: 50px 0;
   }
 
   .standart {
-    padding: 0px 0 35px;
+    padding: 50px 0;
   }
 
   .standart__list {
@@ -179,7 +220,7 @@
   }
 
   .progect {
-    padding: 0 0 0;
+    padding: 50px 0;
   }
 
   .standart__general {
@@ -187,16 +228,49 @@
   }
 
   .registration {
-    padding: 20px 0 0;
-  }
-
-  .play__button {
-    padding: 0.5px 0.5px;
-    margin-left: -109px;
-    margin-top: -31.5px;
+    padding: 50px 0;
   }
 
   header::before {
+    display: none;
+  }
+
+  .footer {
+    padding: 50px 0;
+  }
+
+  .video {
+    padding: 50px 0;
+  }
+
+  .mobil {
+    padding: 50px 0;
+  }
+
+  header {
+    padding: 50px 0;
+  }
+
+  .placeholder {
+    margin-top: -20px;
+  }
+
+  .play__video {
+    display: none;
+  }
+
+  .play {
+    width: auto;
+  }
+
+  .play__button {
+    padding: 0 25px 0 0;
+    position: static;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .line::after {
     display: none;
   }
 }
@@ -216,6 +290,10 @@
 
   .services-title__text {
     font-size: 30px;
+  }
+
+  .registration__email {
+    width: 320px;
   }
 }
 
@@ -243,5 +321,9 @@
 
   .services::after {
     height: 339px;
+  }
+
+  .registration__email {
+    width: 260px;
   }
 }
