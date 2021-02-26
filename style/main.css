@@ -39,6 +39,10 @@ h2 {
   line-height: 1.463em;
 }
 
+h1 {
+  font-size: 48px;
+}
+
 .link-style {
   text-decoration: none;
   font-size: 16px;
@@ -111,7 +115,7 @@ header::before {
 }
 
 .title__info {
-  font-size: 48px;
+  /* font-size: 48px; */
   line-height: 1.333em;
   margin: 20px 0 50px 0;
 }
@@ -505,6 +509,8 @@ header::before {
 
 .footer__item .flex {
   margin: 35px 0 0 0;
+  align-items: flex-start;
+  min-height: 18px;
 }
 
 .footer__grid {

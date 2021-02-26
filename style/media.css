@@ -121,10 +121,10 @@
 
   .title {
     left: 0;
-    margin-top: 0;
+    margin-top: -138px;
     margin-left: 0;
     width: 424px;
-    top: 5%;
+    top: 50%;
   }
 
   .services-title {
@@ -251,10 +251,6 @@
     padding: 50px 0;
   }
 
-  .placeholder {
-    margin-top: -20px;
-  }
-
   .play__video {
     display: none;
   }
@@ -272,6 +268,10 @@
 
   .line::after {
     display: none;
+  }
+
+  .footer__item img {
+    margin-top: 3px;
   }
 }
 
